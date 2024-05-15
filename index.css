@@ -9,12 +9,11 @@ header {
   display: flex;
   justify-content: center;
   min-height: 100svh;
+  width: 100vw;
   align-items: center;
   /* background: #8dd5f7; */
   background: url(/img/europa_background.png) no-repeat center;
-}
-
-video {
+  background-size: cover;
 }
 
 @keyframes videoswoosh {
@@ -22,6 +21,6 @@ video {
     scale: 1;
   }
   100% {
-    scale: 0.5;
+    scale: 0.45;
   }
 }
