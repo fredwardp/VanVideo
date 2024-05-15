@@ -15,11 +15,7 @@ header {
 }
 
 video {
-  border-radius: 10px;
-  box-shadow: 15px 0px 50px rgba(255, 255, 255, 0.06);
-  animation: videoswoosh 1.6s ease forwards;
-  animation-delay: 0.8s;
-  position: absolute;
+  background: url(/img/europa_background.png) no-repeat center;
 }
 
 @keyframes videoswoosh {
